@@ -1,0 +1,39 @@
+### Atividade Estrutura de Controle: SistemaNotas 
+
+Crie um script PHP que resolva o seguinte exercício:
+
+Você vai criar um sistema que simula o cálculo da média das 4 notas de um aluno, levando em consideração 4 provas, e em seguida classificar o aluno de acordo com sua média final.
+
+**Requisitos:**
+
+1. **Entrada:**
+   - O usuário deve fornecer as notas de provas do aluno. As notas podem ser inseridas via variáveis ou via formulário HTML (opcional).
+
+2. **Classificação:**
+   - calcular média.
+   - Caso a média seja maior ou igual a 6, o aluno está "Aprovado".
+   - Se a média for inferior a 6, o aluno está "Reprovado".
+   
+4. **Resultado Final:**
+   - O sistema deve exibir:
+     - A média das provas.
+     - A classificação final do aluno ("Aprovado" ou "Reprovado").
+     - A situação de frequência (se o aluno teve mais de 75% de presença ou não).
+
+5. **Utilize as seguintes estruturas de controle em seu código:**
+   - `if`, `else`, e `else if` para verificar as condições de aprovação/reprovação e de frequência.
+   - Um loop (como `for` ou `while`) para calcular a média das provas.
+   - Um `switch` para exibir a classificação final do aluno.
+
+---
+### Exemplo de como deve ser a saída:
+
+#### Entrada:
+- Nota 1: 7.5
+- Nota 2: 8.0
+- Nota 3: 5.0
+- Nota 4: 6.5
+
+#### Saída:
+- Média: 6.5
+- Classificação: Aprovado
